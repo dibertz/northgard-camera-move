@@ -62,6 +62,9 @@ Copy or clone repository inside of ➤ C:\Users\YourName\Documents\JRPG Camera M
 5. On Godot click Build.
 6. Run the Game.
 
+Contributing
+Contributions to the development and enahancement of JRPG/RTS data is welcome. Please see <a href="https://github.com/dibertz/northgard-camera-move/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> for contribution guidelines.
+
 <h2>FAQ:</h2>
 
 If you have any questions or doubts comment in the description into below. Do you want more features?, check it out repositories.
