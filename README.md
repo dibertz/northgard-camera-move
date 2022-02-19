@@ -7,14 +7,41 @@ A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northg
 JRPG-camera-move-v.0.9 it's a tool designed for to RTS Games and RPGs.
 
 <h2>What it does:</h2>
-
- Mouse camera move, fading in and in-out smoothing, customizable parameters, keyboard camera control, player game tracking, zoom in-out.
- Displacement across x, y, z and diagonal. 
- - Key "Y" for to block or free-view Camera.
- - Keys "A", "W", "D", "S" for to move character and tracking with camera smoothing.
- - Mouse wheel scrolling + or - for to Zoom in-out Camera.
+<p>
+ Move Camera with Mouse in Godot 3D, fading in and in-out smoothing, customizable parameters, keyboard camera control, player tracking camera, zoom in-out. Displacement across x, y, z and diagonal.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FH3t3XPv/Mouse-Camera-gif-maker.gif' border='0' alt='Mouse-Camera-gif-maker'/></a>
+</p>
+<br>
+<p>
+ Key "Y" for to block or free-view Camera.
  
- <h2>Operative systems compatibility:</h2>
+ --------------------------------------
+ 
+ <b>Free-View Cam: First gif image
+  
+  Block-View Cam: Second gif image</b>
+ 
+  --------------------------------------
+ 
+</p>
+<br>
+<p>
+ Keys "A", "W", "D", "S" for to move character and tracking with camera smoothing.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/kMzXvfgJ/smoothing-Camera-gif-maker.gif' border='0' alt='smoothing-Camera-gif-maker'/></a>
+</p>
+<br>
+<p>
+ Mouse wheel scrolling + or - for to Zoom in-out Camera. Even you can scrollable and zoom.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/d33Rcv7T/zoom-Camera-gif-maker.gif' border='0' alt='zoom-Camera-gif-maker'/></a>
+</p>
+<br>
+<h2>Operative systems compatibility:</h2>
 
 MacOS
 
