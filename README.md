@@ -9,7 +9,9 @@ JRPG-camera-move-v.0.9 it's a tool designed for to RTS Games and RPGs.
 <h2>What it does:</h2>
 
  Mouse camera move, fading in and in-out smoothing, customizable parameters, keyboard camera control, player game tracking, zoom in-out.
- Displacement across x, y, z and diagonal.
+ Displacement across x, y, z and diagonal. 
+ - Key "Y" for to block or free-view Camera.
+ - Keys "A", "W", "D", "S" for to move character and tracking with camera smoothing.
  
  <h2>Operative systems compatibility:</h2>
 
