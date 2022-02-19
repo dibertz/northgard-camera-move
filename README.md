@@ -50,16 +50,18 @@ Copy or clone repository inside of ➤ C:\Users\YourName\Documents\JRPG Camera M
 2. Select C# Godot: Select Project.
 
 
-<h3>Init Projetc:</h2>
+<h3>Start Project:</h2>
 
 1. Run Godot C#.
-2. Import file project JRPG Camera Move v.0.9.
-3. Change the Bool variable False to ➤ RPGCamera = true;
-4. Run the Game.
+2. Import file project.godot in the folder JRPG Camera Move v.0.9.
+3. Change (Player.cs) the Bool variable False to ➤ RPGCamera = true;
+4. Save changes IDE and Godot Engine.
+5. On Godot click Build.
+6. Run the Game.
 
 <h2>FAQ:</h2>
 
-If you have any questions or doubts comment in the description into below.
+If you have any questions or doubts comment in the description into below. Do you want more features?, check it out repositories.
 
 Enjoy it!
 
