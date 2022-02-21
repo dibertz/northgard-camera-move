@@ -89,7 +89,7 @@ Copy or clone repository inside of ➤ C:\Users\YourName\Documents\JRPG Camera M
 
 1. Run Godot C#.
 2. Import file project.godot in the folder JRPG Camera Move v.0.9.
-3. Change (Player.cs) the Bool variable False to ➤ RPGCamera = true;
+3. (Optional) Change (Camera.cs) the Bool variable False to ➤ RPGCamera = true;
 4. Save changes IDE and Godot Engine.
 5. On Godot click Build.
 6. Run the Game.
@@ -99,6 +99,23 @@ Contributions to the development and enahancement of JRPG/RTS data is welcome. P
 
 <h2>FAQ:</h2>
 
-If you have any questions or doubts comment in the description into below. Do you want more features?, check it out repositories.
+If you have any questions or doubts comment in the description into below.
+
+1. <b>How to set up the parameters and settings?</b>
+<br>Into Godot editor click node Camera, script variables it can be changed.
+2. <b>What is size map clamped it?</b>
+<br>Higher values than the default value means a symmetric larger map. It should keep the same dimensions on both sides to avoid clamping critical errors.
+3. <b>How to does put my 3D character model without watch for the ugly cube?</b>
+<br>It's super easy, click on node Mesh Instance (Player/Pivot/MeshInstance) and REMOVE, so replace it for your own. 
+<br>Set up to Scale X: 0.1, Y: 0.1, Z: 0.1 and Traslation X: 0.0, Y: 0.1, Z: 0.0. That's it.
+
+Do you want more features?, check it out repositories weekly.
+
+
+<h2>Licensed Under MIT</h2>
+
+<a href='https://www.paypal.com/donate/?hosted_button_id=EWDLXT7WUVYZ2' target='_blank'><img src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif' border='0' alt='Donate with PayPal button'/></a>
+
 
 Enjoy it!
+
