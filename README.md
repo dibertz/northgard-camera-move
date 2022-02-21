@@ -1,4 +1,4 @@
-# northgard-camera-mode
+# northgard-camera-move
 
 A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northgard game.
 
@@ -7,11 +7,41 @@ A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northg
 JRPG-camera-move-v.0.9 it's a tool designed for to RTS Games and RPGs.
 
 <h2>What it does:</h2>
-
- Mouse camera move, fading in and in-out smoothing, customizable parameters, keyboard camera control, player game tracking, zoom in-out.
- Displacement across x, y, z and diagonal.
+<p>
+ Move Camera with Mouse in Godot 3D, fading in and in-out smoothing, customizable parameters, keyboard camera control, player tracking camera, zoom in-out. Displacement across x, y, z and diagonal.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FH3t3XPv/Mouse-Camera-gif-maker.gif' border='0' alt='Mouse-Camera-gif-maker'/></a>
+</p>
+<br>
+<p>
+ Key "Y" for to block or free-view Camera.
  
- <h2>Operative systems compatibility:</h2>
+ --------------------------------------
+ 
+ <b>Free-View Cam: First gif image
+  
+  Block-View Cam: Second gif image</b>
+ 
+  --------------------------------------
+ 
+</p>
+<br>
+<p>
+ Keys "A", "W", "D", "S" for to move character and tracking with camera smoothing.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/kMzXvfgJ/smoothing-Camera-gif-maker.gif' border='0' alt='smoothing-Camera-gif-maker'/></a>
+</p>
+<br>
+<p>
+ Mouse wheel scrolling + or - for to Zoom in-out Camera. Even you can scrollable and zoom.
+</p>
+<p>
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/d33Rcv7T/zoom-Camera-gif-maker.gif' border='0' alt='zoom-Camera-gif-maker'/></a>
+</p>
+<br>
+<h2>Operative systems compatibility:</h2>
 
 MacOS
 
@@ -50,17 +80,20 @@ Copy or clone repository inside of ➤ C:\Users\YourName\Documents\JRPG Camera M
 2. Select C# Godot: Select Project.
 
 
-<h3>Init Projetc:</h2>
+<h3>Start Project:</h2>
 
 1. Run Godot C#.
-2. Import file project JRPG Camera Move v.0.9.
-3. Change the Bool variable False to ➤ RPGCamera = true;
-4. Run the Game.
+2. Import file project.godot in the folder JRPG Camera Move v.0.9.
+3. Change (Player.cs) the Bool variable False to ➤ RPGCamera = true;
+4. Save changes IDE and Godot Engine.
+5. On Godot click Build.
+6. Run the Game.
+
+<h2>Contributing</h2>
+Contributions to the development and enahancement of JRPG/RTS data is welcome. Please see <a href="https://github.com/dibertz/northgard-camera-move/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> for contribution guidelines.
 
 <h2>FAQ:</h2>
 
-If you have any questions or doubts comment in the description into below.
+If you have any questions or doubts comment in the description into below. Do you want more features?, check it out repositories.
 
 Enjoy it!
-
-
