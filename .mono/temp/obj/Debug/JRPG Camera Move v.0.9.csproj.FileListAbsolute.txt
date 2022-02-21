@@ -6,3 +6,19 @@ C:\Users\Diego\Documents\JRPG Camera Move v.0.9\.mono\temp\obj\Debug\JRPG Camera
 C:\Users\Diego\Documents\JRPG Camera Move v.0.9\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.csproj.CoreCompileInputs.cache
 C:\Users\Diego\Documents\JRPG Camera Move v.0.9\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.dll
 C:\Users\Diego\Documents\JRPG Camera Move v.0.9\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.pdb
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\bin\Debug\JRPG Camera Move v.0.9.dll
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\bin\Debug\JRPG Camera Move v.0.9.pdb
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.csprojAssemblyReference.cache
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.AssemblyInfo.cs
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.dll
+C:\Users\Diego\Documents\northgard-camera-move-main\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.pdb
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\bin\Debug\JRPG Camera Move v.0.9.dll
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\bin\Debug\JRPG Camera Move v.0.9.pdb
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.csprojAssemblyReference.cache
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.AssemblyInfo.cs
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.dll
+C:\Users\Diego\Documents\northgard-camera-move\.mono\temp\obj\Debug\JRPG Camera Move v.0.9.pdb

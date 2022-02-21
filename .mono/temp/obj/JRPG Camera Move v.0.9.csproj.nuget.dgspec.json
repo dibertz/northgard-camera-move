@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\Documents\\JRPG Camera Move v.0.9\\JRPG Camera Move v.0.9.csproj": {}
+    "C:\\Users\\Diego\\Documents\\northgard-camera-move\\JRPG Camera Move v.0.9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\Documents\\JRPG Camera Move v.0.9\\JRPG Camera Move v.0.9.csproj": {
+    "C:\\Users\\Diego\\Documents\\northgard-camera-move\\JRPG Camera Move v.0.9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\Documents\\JRPG Camera Move v.0.9\\JRPG Camera Move v.0.9.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Documents\\northgard-camera-move\\JRPG Camera Move v.0.9.csproj",
         "projectName": "JRPG Camera Move v.0.9",
-        "projectPath": "C:\\Users\\Diego\\Documents\\JRPG Camera Move v.0.9\\JRPG Camera Move v.0.9.csproj",
+        "projectPath": "C:\\Users\\Diego\\Documents\\northgard-camera-move\\JRPG Camera Move v.0.9.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\Documents\\JRPG Camera Move v.0.9\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\Diego\\Documents\\northgard-camera-move\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",

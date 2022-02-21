@@ -3,43 +3,46 @@
 using Godot;
 using System;
 
-public class Player : MeshInstance
+public class Player : KinematicBody
 {
-    private float Speed = 5.0f;
-    private float XMove;
-    private float YMove;
+    private float Speed = 0.85f;
+    private Vector3 Direction;
+    private Vector3 _velocity = Vector3.Zero;
+    private int FallAcceleration = 35;
 
-    public override void _Process(float delta)
+    public override void _PhysicsProcess(float delta)
     {
 
-        /*------------------- -
-            - Move Controller -
-            ----------------- -*/
+        Direction = Vector3.Zero;
 
-        // -----------------------------------------------------------------
-        
-        if (Input.GetActionRawStrength("ui_left") > 0)
+        if (Input.IsActionPressed("ui_left"))
         {
-            XMove += Input.GetActionRawStrength("ui_left") * Speed * delta;
+            Direction.x -= 1f;
         }
-        else if  (Input.GetActionRawStrength("ui_right") > 0)
+        else if (Input.IsActionPressed("ui_right"))
         {
-            XMove -= Input.GetActionRawStrength("ui_right") * Speed * delta;
+            Direction.x += 1f;
         }
 
-        // -----------------------------------------------------------------
-
-        if (Input.GetActionRawStrength("ui_up") > 0)
+        if (Input.IsActionPressed("ui_up"))
         {
-            YMove -= Input.GetActionRawStrength("ui_up") * Speed * delta;
+            Direction.z -= 1f;
         }
-        else if  (Input.GetActionRawStrength("ui_down") > 0)
+        else if (Input.IsActionPressed("ui_down"))
         {
-            YMove += Input.GetActionRawStrength("ui_down") * Speed * delta;
+            Direction.z += 1f;
         }
-        Translation = new Vector3(YMove, Translation.y, XMove);
 
-        // -----------------------------------------------------------------
+        if (Direction != Vector3.Zero)
+        {
+            Direction = Direction.Normalized();
+            GetNode<Spatial>("Pivot").LookAt(Translation + Direction, Vector3.Up);
 
+            _velocity.x = Direction.x * Speed;
+            _velocity.z = Direction.z * Speed;
+
+            //_velocity.y -= FallAcceleration * delta;
+            _velocity = MoveAndSlide(_velocity, Vector3.Up);
+        }
     }
 }

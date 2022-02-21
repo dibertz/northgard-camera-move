@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://CameraMove.cs" type="Script" id=1]
 [ext_resource path="res://Player.cs" type="Script" id=2]
@@ -19,11 +19,14 @@ fog_color = Color( 0.501961, 0.6, 0.701961, 0.215686 )
 adjustment_brightness = 2.07
 adjustment_contrast = 1.36
 
-[sub_resource type="CubeMesh" id=6]
+[sub_resource type="CubeMesh" id=12]
 
-[sub_resource type="SpatialMaterial" id=7]
-params_diffuse_mode = 1
-albedo_color = Color( 0.0470588, 1, 0, 1 )
+[sub_resource type="SpatialMaterial" id=13]
+albedo_color = Color( 0, 1, 0.133333, 1 )
+
+[sub_resource type="CapsuleShape" id=11]
+radius = 0.1
+height = 0.1
 
 [node name="SampleScene" type="Spatial"]
 
@@ -33,16 +36,14 @@ layers = 0
 light_color = Color( 0.960784, 0.745098, 0.666667, 1 )
 shadow_enabled = true
 shadow_color = Color( 0.803922, 0.392157, 1, 1 )
-shadow_contact = 0.5
-shadow_reverse_cull_face = true
+shadow_contact = 1.0
 
 [node name="Plane" type="MeshInstance" parent="."]
-transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+transform = Transform( 7.07107, 0, 7.07107, 0, 10, 0, -7.07107, 0, 7.07107, 0, 0, 0 )
 mesh = SubResource( 1 )
 material/0 = SubResource( 8 )
 
 [node name="TrackingCamera" type="Position3D" parent="."]
-transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 0, 0 )
 
 [node name="Camera" type="Camera" parent="TrackingCamera"]
 transform = Transform( 1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 40, 69.225 )
@@ -51,11 +52,35 @@ environment = SubResource( 5 )
 projection = 1
 size = 12.0
 script = ExtResource( 1 )
-MinSpeed = 0.017
-MaxSpeed = 0.02
 
-[node name="Player" type="MeshInstance" parent="."]
-transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.1, 0 )
-mesh = SubResource( 6 )
-material/0 = SubResource( 7 )
+[node name="Player" type="KinematicBody" parent="."]
 script = ExtResource( 2 )
+
+[node name="Pivot" type="Spatial" parent="Player"]
+
+[node name="MeshInstance" type="MeshInstance" parent="Player/Pivot"]
+transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.1, 0 )
+mesh = SubResource( 12 )
+material/0 = SubResource( 13 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Player"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.1, 0 )
+shape = SubResource( 11 )
+
+[node name="Debug" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Debug"]
+margin_right = 107.0
+margin_bottom = 14.0
+size_flags_horizontal = 4
+custom_colors/font_color = Color( 0.27451, 0.27451, 0.27451, 1 )
+align = 3
+valign = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
