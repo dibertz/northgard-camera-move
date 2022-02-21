@@ -1,6 +1,7 @@
 # northgard-camera-move
 
 A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northgard game.
+LOG: Recent version V.0.5.9 with new features and fixes applied.
 
 <h2>Intrduction:</h2>
 
@@ -8,7 +9,7 @@ JRPG-camera-move-v.0.9 it's a tool designed for to RTS Games and RPGs.
 
 <h2>What it does:</h2>
 <p>
- Move Camera with Mouse in Godot 3D, fading in and in-out smoothing, customizable parameters, keyboard camera control, player tracking camera, zoom in-out. Displacement across x, y, z and diagonal.
+ Move Camera with Mouse in Godot 3D, fading in and in-out smoothing, customizable parameters, keyboard camera control, player tracking camera, zoom in-out. Displacement across x, y, z and diagonal. Kinematic Character move interactive.
 </p>
 <p>
  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FH3t3XPv/Mouse-Camera-gif-maker.gif' border='0' alt='Mouse-Camera-gif-maker'/></a>
