@@ -2,7 +2,10 @@
 
 A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northgard game.
 <br>
-<b>LOG:</b> Recent version V.0.5.9 with new features and fixes applied.
+```diff
++ Recent version V.0.5.9 with new features and fixes applied.
+- You does can reset the Commit to 93dfcc.. (for to get previous version).
+```
 
 <h2>Intrduction:</h2>
 
