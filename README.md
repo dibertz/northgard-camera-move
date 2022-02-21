@@ -1,7 +1,8 @@
 # northgard-camera-move
 
 A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northgard game.
-LOG: Recent version V.0.5.9 with new features and fixes applied.
+<br>
+<b>LOG:</b> Recent version V.0.5.9 with new features and fixes applied.
 
 <h2>Intrduction:</h2>
 
