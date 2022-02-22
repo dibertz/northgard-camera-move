@@ -4,9 +4,9 @@ A simple RTS camera move system made in Godot Engine 3.4 imitating to the Northg
 <br>
 ```diff
 + Recent version V.0.9.5 with new features and fixes applied.
-+ Available plug-in for GDScript programming language here https://github.com/dibertz/northgard-camera-move-plugin-for-godot
 - You does can reset the Commit to 93dfcc.. (for to get previous version).
 ```
+Available plug-in for GDScript programming language <a href='https://github.com/dibertz/northgard-camera-move-plugin-for-godot' target='_blank'>northgard-camera-move-plugin-for-godot</a>
 
 <h2>Intrduction:</h2>
 
